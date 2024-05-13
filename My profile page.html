@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <title>My Profile Page</title>
+  <style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color:  rgb(137, 197, 236);
+    }
+    .h1{
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 32px;
+            margin-right: 33%;
+        }
+    header {
+        width: 100%;
+        position: fixed;
+        overflow: auto;
+        top: 0;
+        left: 0;
+        padding: 12px 2%;
+        display: flex;
+        align-items: center;
+        justify-content: justify;
+        background-color: rgb(2, 0, 139);
+        z-index: 10;
+        color: #ffffff;
+    }
+    header ul li {
+        list-style: none;
+        display: inline-block;
+    }
+    header ul li a {
+        text-decoration: none;
+        color:#ffffff;
+        font-size: 17px;
+    }
+    .navbar a {
+        color: white;
+        font-weight: 600;;
+        margin-left: 3rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: all .40s ease;
+    }
+    .navbar a:hover {
+        color: rgb(122, 122, 122);
+    }
+    .icon {
+        font-size: 40px;
+        color: black;
+        text-align: right;
+        padding: 0;
+        margin-right: .3rem;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .profile-info {
+        background-color: #f4f4f4;
+        padding: 20px;
+        border-radius: 10px;
+        height: 60%;
+        width: 65%;
+        display: inline-block;
+    }
+    .profile-info h2 {
+        margin-top: 0;
+        color:rgb(2, 0, 139);
+    }
+    .profile-info p {
+        margin-top: .1rem;
+    }
+    .profile-pic img {
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+        border: 3px solid #333;
+        margin-left: 65px;
+    }
+    .con {
+        color: black;
+        display: inline-block;
+    }
+    .con1{
+        color: black;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 2rem;
+    }
+  </style>
+</head>
+<body>
+<header>
+    <div class="icon"><i class='bx bxs-user bx-flip-horizontal'></i></div>
+    <div class="h1">MY PROFILE PAGE</div>
+    <ul class="navbar">
+        <li>
+            <a href="Front Page.html">Home</a>
+        </li>
+        <li>
+            <a href="Gallery.html">Gallery</a>
+        </li>
+        <li>
+            <a href="Infographics.html">Infographics</a>
+        </li>
+    </ul>
+</header>
+  
+  <main>
+    <div class="profile-info">
+        <h2>Profile Information</h2>
+        <div class="con">
+            <p><b>Full Name:</b> Valdez, Jamaica M.</p>
+            <p><b>Email:</b> jamaicav2020@gmail.com</p>
+            <p><b>Birthday:</b> December 30, 2003</p>
+            <p><b>Age:</b> 20</p>
+            <p><b>Sex:</b> Female</p>
+            <p><b>Status:</b> Single</p>
+            <p><b>Mobile:</b> 09482396197</p>
+            <p><b>Place of Birth:</b> Quezon City</p>
+            <p><b>Address:</b> Blk 7 Lot 6 Greenland St. Greenview Ex. Vill.</p>
+        </div>
+        <div class="con1">
+            <p><b>Job:</b> Student</p>
+            <p><b>Language:</b> Filipino</p>
+            <p><b>Nationality:</b> Filipino</p>
+            <p><b>Religion:</b> Christian Born Again</p>
+            <p><b>Hobbies:</b> Playing Online games, Guitar, and Watching</p>
+        </div>
+    </div>
+    <div class="profile-pic">
+        <img src="prof.jpg" alt="Profile Picture">
+    </div>
+
+  </main>
+</body>
+</html>

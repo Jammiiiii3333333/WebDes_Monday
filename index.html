@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<Head>
+    <title>WEEK 6 INT, EXT, & INLINE CSS</title>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        body{
+            background-color: rgb(137, 197, 236);
+        }
+        h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(2, 0, 139);
+        }
+        h3, h2{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: darkred;
+            margin-top: .1rem;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .row {
+            margin-top: 2.5rem;
+            display: flex;
+            margin-left: 9rem;
+            margin-right: 7rem;
+        }
+        .con {
+            flex-basis: 31%;
+            background: #0000000e;
+            border-radius: 10px;
+            margin-bottom: 3rem;
+            margin-right: 2rem;
+            width: 200rem;
+            height: 16rem;
+            padding: 15px 10px;
+            padding-left: .5rem;
+            box-sizing: border-box;
+            transition: 0.5s ease-in-out;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .con p {
+            text-align: center;
+            margin-top: 0%;
+            margin-left: .5rem;
+            margin-right: .5rem;
+            font-size: 15px;
+            color: black;
+        }
+        .con:hover{
+            box-shadow: 3px 5px 3px 3px rgba(0, 0, 0, 0.253);
+        }
+        .icon {
+            font-size: 90px;
+            color: black;
+            text-align: center;
+            padding: 0;
+        }
+
+    </style>
+</Head>
+<body>
+    <h1>Welcome! To My HTML and CSS work</h1>
+    <h3>Exciting Choices await! Please select one to be directed to its dedicated page. Whether you're seeking information about the creator, wanting to see some compilation of pictures, or simply wanting some learnings, each option promises a unique and enriching experience.</h3><br>
+    <div class="row">
+        <a href="My profile page.html" class="con">
+            <h2>My Profile Page</h2>
+            <div class="icon">
+                <i class='bx bxs-user bx-flip-horizontal'></i>
+            </div>
+            <p>Step into my world. Here, you'll find bits and pieces of information about me. Feel free to explore and get to know me better. </p>
+            <p><b>Click to see more</b></p>
+        </a>
+        <a href="Gallery.html" class="con">
+            <h2>Gallery Page</h2>
+            <div class="icon">
+                <i class='bx bx-images'></i>
+            </div>
+            <p>This section showcases moments, each frame telling it's own uniqie story. Immerse yourself in the beauty of the world through my lens.</p>
+            <p><b>Click to see more</b></p>
+        </a>
+        <a href="Infographics.html" class="con">
+            <h2>Infographics</h2>
+            <div class="icon">
+                <i class='bx bx-info-circle'></i>
+            </div>
+            <p>Dive into the world of data and insights carfted to deliver key information in a clear and engaging manner. Explore, Learn and discover.</p>
+            <p><b>Click to see more</b></p>
+        </a>
+    </div>
+    <h3>Prepared by: VALDEZ, JAMAICA M.</h3>
+</body>
